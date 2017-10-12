@@ -60,7 +60,7 @@
 
 .contact-icon {
     display: flex;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -84,6 +84,7 @@
             overflow: hidden;
             border: 3px solid #f1fafa;
             z-index: 1;
+            margin-top: 1350px;
         }
 
             .contact-icon li a .fa {
@@ -99,7 +100,7 @@
 
             .contact-icon li a:before {
                 content: '';
-                position: relative;
+                position: absolute;
                 top: 100%;
                 left: 0;
                 width: 100%;
