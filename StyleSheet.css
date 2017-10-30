@@ -47,11 +47,26 @@
     padding: 5%;
 }
 
+.experience phone {
+    color: #F1F1FA;
+    font-size: 25px;
+    padding: 5%;
+    list-style: none;
+    position: center;
+}
+
 .experience {
     padding: 5%;
     color: #F1F1FA;
     font-size: 20px;
 }
+
+.phone {
+    padding: 5%;
+    color: #F1F1FA;
+    font-size: 20px;
+}
+
 
 .title {
     border-style: solid;
@@ -60,7 +75,7 @@
 
 .contact-icon {
     display: flex;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -84,7 +99,7 @@
             overflow: hidden;
             border: 3px solid #f1fafa;
             z-index: 1;
-            margin-top: 1350px;
+            margin-top: 10%;
         }
 
             .contact-icon li a .fa {
@@ -125,3 +140,9 @@
             .contact-icon li:nth-child(3) a:before {
                 background: #000000;
             }
+
+
+.phone{
+    text-align: center;
+    margin: 10px;
+}
