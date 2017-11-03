@@ -1,0 +1,111 @@
+﻿body {
+    background-color: #333333;
+    font-family: Raleway sans-serif;
+    text-emphasis-color: #F1F1FA;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+.spacer {
+    padding-top: 5%;
+}
+
+.homeImg {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin-top: -30px;
+    margin-left: 0px;
+    border: 0;
+}
+
+.name {
+    font-family: Arial black;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    color: #F1F1FA;
+    margin: -150px 100px -200px 290px;
+}
+
+.title {
+    font-size: 50px;
+    color: #F1F1FA;
+}
+
+.assimov-quote {
+    color: #F1F1FA;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.experience .phone {
+    color: #F1F1FA;
+    font-size: 25px;
+    padding: 5%;
+    list-style: none;
+    position: center;
+}
+
+.experience {
+    padding: 5%;
+    color: #F1F1FA;
+    font-size: 20px;
+}
+
+.phone {
+    padding: 5%;
+    color: #F1F1FA;
+    font-size: 20px;
+}
+
+
+.title {
+    border-style: solid;
+    border-color: #333 #333 #F1F1FA;
+}
+
+
+.footer {
+  background: #333;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 40px;
+  padding: 10px 30px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+
+.phone{
+    text-align: center;
+    margin: 10px;
+}
+
+.phone p a{
+    color: #F1F1FA;
+}
+
+.phone p a:hover{
+    color: white;
+}
+
+.portfolio-item p{
+    color: #F1F1FA;
+    font-size: 25px;
+}
